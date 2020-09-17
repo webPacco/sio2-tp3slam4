@@ -1,0 +1,9 @@
+{% extends 'base2.html.twig' %}
+
+{% block entete %}Hello
+{% endblock %}
+{% block contenu %}
+	Bonjour à tous
+	{{block("entete")}}
+	{{param_name}}
+{% endblock %}
